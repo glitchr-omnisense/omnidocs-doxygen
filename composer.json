@@ -2,7 +2,7 @@
     "name": "omnidocs/doxygen",
     "type": "library",
     "description": "Omnidocs Doxygen: a C or C++ project's reference from Doxygen's XML output - its main page, a page per namespace, class, struct and file with its public members, their declarations, parameters and returns; notes, warnings and code examples in omnidocs' conventions.",
-    "keywords": ["documentation", "doxygen", "c", "c++", "api reference", "omnidocs"],
+    "keywords": ["documentation", "doxygen", "c", "cpp", "api reference", "omnidocs"],
     "homepage": "https://github.com/glitchr-studio/omnidocs-doxygen",
     "license": "MIT",
     "authors": [{"name": "Marco Meyer", "email": "marco.meyer@glitchr.io"}],
