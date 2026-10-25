@@ -1,0 +1,29 @@
+{
+    "name": "omnidocs/doxygen",
+    "type": "library",
+    "description": "Omnidocs Doxygen: a C or C++ project's reference from Doxygen's XML output - its main page, a page per namespace, class, struct and file with its public members, their declarations, parameters and returns; notes, warnings and code examples in omnidocs' conventions.",
+    "keywords": ["documentation", "doxygen", "c", "c++", "api reference", "omnidocs"],
+    "homepage": "https://github.com/glitchr-studio/omnidocs-doxygen",
+    "license": "MIT",
+    "authors": [{"name": "Marco Meyer", "email": "marco.meyer@glitchr.io"}],
+    "require": {
+        "php": ">=8.2",
+        "ext-dom": "*",
+        "ext-libxml": "*",
+        "omniscient/omnidocs": "^1.0@dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {"Omnidocs\\Doxygen\\": ""},
+        "exclude-from-classmap": ["/Tests/"]
+    },
+    "autoload-dev": {
+        "psr-4": {"Omnidocs\\Doxygen\\Tests\\": "Tests/"}
+    },
+    "extra": {
+        "branch-alias": {"dev-1.x": "1.x-dev"}
+    },
+    "config": {"sort-packages": true}
+}

@@ -1,0 +1,666 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classtinyxml2_1_1_x_m_l_util" kind="class" language="C++" prot="public">
+    <compoundname>tinyxml2::XMLUtil</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classtinyxml2_1_1_x_m_l_util_1a5d173d121ea58f69d875f75cb108ef83" prot="private" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* tinyxml2::XMLUtil::writeBoolTrue</definition>
+        <argsstring></argsstring>
+        <name>writeBoolTrue</name>
+        <qualifiedname>tinyxml2::XMLUtil::writeBoolTrue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tinyxml2.h" line="641" column="19" bodyfile="tinyxml2.h" bodystart="641" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtinyxml2_1_1_x_m_l_util_1ab642d65697daba2f49a1f0d83411ffa5" prot="private" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* tinyxml2::XMLUtil::writeBoolFalse</definition>
+        <argsstring></argsstring>
+        <name>writeBoolFalse</name>
+        <qualifiedname>tinyxml2::XMLUtil::writeBoolFalse</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tinyxml2.h" line="642" column="19" bodyfile="tinyxml2.h" bodystart="642" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classtinyxml2_1_1_x_m_l_util_1ac9946290e942fbf226a6520bb6a4988f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>static const char * tinyxml2::XMLUtil::SkipWhiteSpace</definition>
+        <argsstring>(const char *p, int *curLineNumPtr)</argsstring>
+        <name>SkipWhiteSpace</name>
+        <qualifiedname>tinyxml2::XMLUtil::SkipWhiteSpace</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>curLineNumPtr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tinyxml2.h" line="551" column="23" bodyfile="tinyxml2.h" bodystart="551" bodyend="562"/>
+      </memberdef>
+      <memberdef kind="function" id="classtinyxml2_1_1_x_m_l_util_1aeac9e3b7ab41cc4551467a4b81de28d7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>char *</type>
+        <definition>static char * tinyxml2::XMLUtil::SkipWhiteSpace</definition>
+        <argsstring>(char *const p, int *curLineNumPtr)</argsstring>
+        <name>SkipWhiteSpace</name>
+        <qualifiedname>tinyxml2::XMLUtil::SkipWhiteSpace</qualifiedname>
+        <param>
+          <type>char *const</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>curLineNumPtr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tinyxml2.h" line="563" column="17" bodyfile="tinyxml2.h" bodystart="563" bodyend="565"/>
+      </memberdef>
+      <memberdef kind="function" id="classtinyxml2_1_1_x_m_l_util_1a357ec3af8fc433d19023a815f45e8e33" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool tinyxml2::XMLUtil::IsWhiteSpace</definition>
+        <argsstring>(char p)</argsstring>
+        <name>IsWhiteSpace</name>
+        <qualifiedname>tinyxml2::XMLUtil::IsWhiteSpace</qualifiedname>
+        <param>
+          <type>char</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tinyxml2.h" line="569" column="17" bodyfile="tinyxml2.h" bodystart="569" bodyend="571"/>
+      </memberdef>
+      <memberdef kind="function" id="classtinyxml2_1_1_x_m_l_util_1abe106a69ac4d942a4381a4d9dfd0e0bd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool tinyxml2::XMLUtil::IsNameStartChar</definition>
+        <argsstring>(unsigned char ch)</argsstring>
+        <name>IsNameStartChar</name>
+        <qualifiedname>tinyxml2::XMLUtil::IsNameStartChar</qualifiedname>
+        <param>
+          <type>unsigned char</type>
+          <declname>ch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tinyxml2.h" line="573" column="24" bodyfile="tinyxml2.h" bodystart="573" bodyend="582"/>
+      </memberdef>
+      <memberdef kind="function" id="classtinyxml2_1_1_x_m_l_util_1a04b17341538fa11752f24b4301d19485" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool tinyxml2::XMLUtil::IsNameChar</definition>
+        <argsstring>(unsigned char ch)</argsstring>
+        <name>IsNameChar</name>
+        <qualifiedname>tinyxml2::XMLUtil::IsNameChar</qualifiedname>
+        <param>
+          <type>unsigned char</type>
+          <declname>ch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tinyxml2.h" line="584" column="24" bodyfile="tinyxml2.h" bodystart="584" bodyend="589"/>
+      </memberdef>
+      <memberdef kind="function" id="classtinyxml2_1_1_x_m_l_util_1a28c5a73c3d557ae0090191ef31d2f59a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool tinyxml2::XMLUtil::IsPrefixHex</definition>
+        <argsstring>(const char *p)</argsstring>
+        <name>IsPrefixHex</name>
+        <qualifiedname>tinyxml2::XMLUtil::IsPrefixHex</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tinyxml2.h" line="591" column="24" bodyfile="tinyxml2.h" bodystart="591" bodyend="594"/>
+      </memberdef>
+      <memberdef kind="function" id="classtinyxml2_1_1_x_m_l_util_1acfcd287cacfd2533e1bc9ea4dfb56602" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool tinyxml2::XMLUtil::StringEqual</definition>
+        <argsstring>(const char *p, const char *q, int nChar=INT_MAX)</argsstring>
+        <name>StringEqual</name>
+        <qualifiedname>tinyxml2::XMLUtil::StringEqual</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nChar</declname>
+          <defval>INT_MAX</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tinyxml2.h" line="596" column="24" bodyfile="tinyxml2.h" bodystart="596" bodyend="604"/>
+      </memberdef>
+      <memberdef kind="function" id="classtinyxml2_1_1_x_m_l_util_1a9780b5926e30fe6222e10f0e6cf5a04a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool tinyxml2::XMLUtil::IsUTF8Continuation</definition>
+        <argsstring>(const char p)</argsstring>
+        <name>IsUTF8Continuation</name>
+        <qualifiedname>tinyxml2::XMLUtil::IsUTF8Continuation</qualifiedname>
+        <param>
+          <type>const char</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tinyxml2.h" line="606" column="24" bodyfile="tinyxml2.h" bodystart="606" bodyend="608"/>
+      </memberdef>
+      <memberdef kind="function" id="classtinyxml2_1_1_x_m_l_util_1ad62150de2eba02edf10cffb9e39114ef" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>static const char * tinyxml2::XMLUtil::ReadBOM</definition>
+        <argsstring>(const char *p, bool *hasBOM)</argsstring>
+        <name>ReadBOM</name>
+        <qualifiedname>tinyxml2::XMLUtil::ReadBOM</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>bool *</type>
+          <declname>hasBOM</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tinyxml2.h" line="610" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classtinyxml2_1_1_x_m_l_util_1a06833d372c8668ed6e3f38756f6d7cc6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>static const char * tinyxml2::XMLUtil::GetCharacterRef</definition>
+        <argsstring>(const char *p, char *value, int *length)</argsstring>
+        <name>GetCharacterRef</name>
+        <qualifiedname>tinyxml2::XMLUtil::GetCharacterRef</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tinyxml2.h" line="613" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classtinyxml2_1_1_x_m_l_util_1aad2d5b0f7e4327bff0bf558148f01a82" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void tinyxml2::XMLUtil::ConvertUTF32ToUTF8</definition>
+        <argsstring>(unsigned long input, char *output, int *length)</argsstring>
+        <name>ConvertUTF32ToUTF8</name>
+        <qualifiedname>tinyxml2::XMLUtil::ConvertUTF32ToUTF8</qualifiedname>
+        <param>
+          <type>unsigned long</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tinyxml2.h" line="614" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classtinyxml2_1_1_x_m_l_util_1a5819187d33b5b4d626399118eb622016" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void tinyxml2::XMLUtil::ToStr</definition>
+        <argsstring>(int v, char *buffer, int bufferSize)</argsstring>
+        <name>ToStr</name>
+        <qualifiedname>tinyxml2::XMLUtil::ToStr</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bufferSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tinyxml2.h" line="617" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classtinyxml2_1_1_x_m_l_util_1a096ca738f14b06866d99489e1c315402" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void tinyxml2::XMLUtil::ToStr</definition>
+        <argsstring>(unsigned v, char *buffer, int bufferSize)</argsstring>
+        <name>ToStr</name>
+        <qualifiedname>tinyxml2::XMLUtil::ToStr</qualifiedname>
+        <param>
+          <type>unsigned</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bufferSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tinyxml2.h" line="618" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classtinyxml2_1_1_x_m_l_util_1ad77298cc6025249b28da58c7289190d1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void tinyxml2::XMLUtil::ToStr</definition>
+        <argsstring>(bool v, char *buffer, int bufferSize)</argsstring>
+        <name>ToStr</name>
+        <qualifiedname>tinyxml2::XMLUtil::ToStr</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bufferSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tinyxml2.h" line="619" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classtinyxml2_1_1_x_m_l_util_1a6aef5d230e3972fbedda75b0ba5bbcdb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void tinyxml2::XMLUtil::ToStr</definition>
+        <argsstring>(float v, char *buffer, int bufferSize)</argsstring>
+        <name>ToStr</name>
+        <qualifiedname>tinyxml2::XMLUtil::ToStr</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bufferSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tinyxml2.h" line="620" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classtinyxml2_1_1_x_m_l_util_1a5ddef1a1d33db500b74b45110df48b6c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void tinyxml2::XMLUtil::ToStr</definition>
+        <argsstring>(double v, char *buffer, int bufferSize)</argsstring>
+        <name>ToStr</name>
+        <qualifiedname>tinyxml2::XMLUtil::ToStr</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bufferSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tinyxml2.h" line="621" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classtinyxml2_1_1_x_m_l_util_1abce55b1eb11af278acdd59fd1db12e34" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void tinyxml2::XMLUtil::ToStr</definition>
+        <argsstring>(int64_t v, char *buffer, int bufferSize)</argsstring>
+        <name>ToStr</name>
+        <qualifiedname>tinyxml2::XMLUtil::ToStr</qualifiedname>
+        <param>
+          <type>int64_t</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bufferSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tinyxml2.h" line="622" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classtinyxml2_1_1_x_m_l_util_1aff2cf3b9474538d497f672735ce87fd1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void tinyxml2::XMLUtil::ToStr</definition>
+        <argsstring>(uint64_t v, char *buffer, int bufferSize)</argsstring>
+        <name>ToStr</name>
+        <qualifiedname>tinyxml2::XMLUtil::ToStr</qualifiedname>
+        <param>
+          <type>uint64_t</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bufferSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tinyxml2.h" line="623" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classtinyxml2_1_1_x_m_l_util_1ac7fa220dd1c428ed6a77850d56a6e4bf" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool tinyxml2::XMLUtil::ToInt</definition>
+        <argsstring>(const char *str, int *value)</argsstring>
+        <name>ToInt</name>
+        <qualifiedname>tinyxml2::XMLUtil::ToInt</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tinyxml2.h" line="626" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classtinyxml2_1_1_x_m_l_util_1a46f7e9542929001e726853ed8b571c07" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool tinyxml2::XMLUtil::ToUnsigned</definition>
+        <argsstring>(const char *str, unsigned *value)</argsstring>
+        <name>ToUnsigned</name>
+        <qualifiedname>tinyxml2::XMLUtil::ToUnsigned</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>unsigned *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tinyxml2.h" line="627" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classtinyxml2_1_1_x_m_l_util_1ae1692c644a807da2cd9e1e45f79a102f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool tinyxml2::XMLUtil::ToBool</definition>
+        <argsstring>(const char *str, bool *value)</argsstring>
+        <name>ToBool</name>
+        <qualifiedname>tinyxml2::XMLUtil::ToBool</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>bool *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tinyxml2.h" line="628" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classtinyxml2_1_1_x_m_l_util_1ac13b56b82e7f1d2d3954666b76c67d22" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool tinyxml2::XMLUtil::ToFloat</definition>
+        <argsstring>(const char *str, float *value)</argsstring>
+        <name>ToFloat</name>
+        <qualifiedname>tinyxml2::XMLUtil::ToFloat</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tinyxml2.h" line="629" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classtinyxml2_1_1_x_m_l_util_1a7e37ab30ba19c2b02042ab093172e9b8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool tinyxml2::XMLUtil::ToDouble</definition>
+        <argsstring>(const char *str, double *value)</argsstring>
+        <name>ToDouble</name>
+        <qualifiedname>tinyxml2::XMLUtil::ToDouble</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tinyxml2.h" line="630" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classtinyxml2_1_1_x_m_l_util_1a8114c7289f19ee58129b2439584953e6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool tinyxml2::XMLUtil::ToInt64</definition>
+        <argsstring>(const char *str, int64_t *value)</argsstring>
+        <name>ToInt64</name>
+        <qualifiedname>tinyxml2::XMLUtil::ToInt64</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>int64_t *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tinyxml2.h" line="631" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classtinyxml2_1_1_x_m_l_util_1a9a0e74ba8b2f8ecc0656bb18f1e4f8ad" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool tinyxml2::XMLUtil::ToUnsigned64</definition>
+        <argsstring>(const char *str, uint64_t *value)</argsstring>
+        <name>ToUnsigned64</name>
+        <qualifiedname>tinyxml2::XMLUtil::ToUnsigned64</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>uint64_t *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tinyxml2.h" line="632" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classtinyxml2_1_1_x_m_l_util_1aa2c657802d96f8bc21af6ed33179d381" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void tinyxml2::XMLUtil::SetBoolSerialization</definition>
+        <argsstring>(const char *writeTrue, const char *writeFalse)</argsstring>
+        <name>SetBoolSerialization</name>
+        <qualifiedname>tinyxml2::XMLUtil::SetBoolSerialization</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>writeTrue</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>writeFalse</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tinyxml2.h" line="638" column="13"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="tinyxml2.h" line="548" column="1" bodyfile="tinyxml2.h" bodystart="549" bodyend="643"/>
+    <listofallmembers>
+      <member refid="classtinyxml2_1_1_x_m_l_util_1aad2d5b0f7e4327bff0bf558148f01a82" prot="public" virt="non-virtual"><scope>tinyxml2::XMLUtil</scope><name>ConvertUTF32ToUTF8</name></member>
+      <member refid="classtinyxml2_1_1_x_m_l_util_1a06833d372c8668ed6e3f38756f6d7cc6" prot="public" virt="non-virtual"><scope>tinyxml2::XMLUtil</scope><name>GetCharacterRef</name></member>
+      <member refid="classtinyxml2_1_1_x_m_l_util_1a04b17341538fa11752f24b4301d19485" prot="public" virt="non-virtual"><scope>tinyxml2::XMLUtil</scope><name>IsNameChar</name></member>
+      <member refid="classtinyxml2_1_1_x_m_l_util_1abe106a69ac4d942a4381a4d9dfd0e0bd" prot="public" virt="non-virtual"><scope>tinyxml2::XMLUtil</scope><name>IsNameStartChar</name></member>
+      <member refid="classtinyxml2_1_1_x_m_l_util_1a28c5a73c3d557ae0090191ef31d2f59a" prot="public" virt="non-virtual"><scope>tinyxml2::XMLUtil</scope><name>IsPrefixHex</name></member>
+      <member refid="classtinyxml2_1_1_x_m_l_util_1a9780b5926e30fe6222e10f0e6cf5a04a" prot="public" virt="non-virtual"><scope>tinyxml2::XMLUtil</scope><name>IsUTF8Continuation</name></member>
+      <member refid="classtinyxml2_1_1_x_m_l_util_1a357ec3af8fc433d19023a815f45e8e33" prot="public" virt="non-virtual"><scope>tinyxml2::XMLUtil</scope><name>IsWhiteSpace</name></member>
+      <member refid="classtinyxml2_1_1_x_m_l_util_1ad62150de2eba02edf10cffb9e39114ef" prot="public" virt="non-virtual"><scope>tinyxml2::XMLUtil</scope><name>ReadBOM</name></member>
+      <member refid="classtinyxml2_1_1_x_m_l_util_1aa2c657802d96f8bc21af6ed33179d381" prot="public" virt="non-virtual"><scope>tinyxml2::XMLUtil</scope><name>SetBoolSerialization</name></member>
+      <member refid="classtinyxml2_1_1_x_m_l_util_1ac9946290e942fbf226a6520bb6a4988f" prot="public" virt="non-virtual"><scope>tinyxml2::XMLUtil</scope><name>SkipWhiteSpace</name></member>
+      <member refid="classtinyxml2_1_1_x_m_l_util_1aeac9e3b7ab41cc4551467a4b81de28d7" prot="public" virt="non-virtual"><scope>tinyxml2::XMLUtil</scope><name>SkipWhiteSpace</name></member>
+      <member refid="classtinyxml2_1_1_x_m_l_util_1acfcd287cacfd2533e1bc9ea4dfb56602" prot="public" virt="non-virtual"><scope>tinyxml2::XMLUtil</scope><name>StringEqual</name></member>
+      <member refid="classtinyxml2_1_1_x_m_l_util_1ae1692c644a807da2cd9e1e45f79a102f" prot="public" virt="non-virtual"><scope>tinyxml2::XMLUtil</scope><name>ToBool</name></member>
+      <member refid="classtinyxml2_1_1_x_m_l_util_1a7e37ab30ba19c2b02042ab093172e9b8" prot="public" virt="non-virtual"><scope>tinyxml2::XMLUtil</scope><name>ToDouble</name></member>
+      <member refid="classtinyxml2_1_1_x_m_l_util_1ac13b56b82e7f1d2d3954666b76c67d22" prot="public" virt="non-virtual"><scope>tinyxml2::XMLUtil</scope><name>ToFloat</name></member>
+      <member refid="classtinyxml2_1_1_x_m_l_util_1ac7fa220dd1c428ed6a77850d56a6e4bf" prot="public" virt="non-virtual"><scope>tinyxml2::XMLUtil</scope><name>ToInt</name></member>
+      <member refid="classtinyxml2_1_1_x_m_l_util_1a8114c7289f19ee58129b2439584953e6" prot="public" virt="non-virtual"><scope>tinyxml2::XMLUtil</scope><name>ToInt64</name></member>
+      <member refid="classtinyxml2_1_1_x_m_l_util_1a5819187d33b5b4d626399118eb622016" prot="public" virt="non-virtual"><scope>tinyxml2::XMLUtil</scope><name>ToStr</name></member>
+      <member refid="classtinyxml2_1_1_x_m_l_util_1a096ca738f14b06866d99489e1c315402" prot="public" virt="non-virtual"><scope>tinyxml2::XMLUtil</scope><name>ToStr</name></member>
+      <member refid="classtinyxml2_1_1_x_m_l_util_1ad77298cc6025249b28da58c7289190d1" prot="public" virt="non-virtual"><scope>tinyxml2::XMLUtil</scope><name>ToStr</name></member>
+      <member refid="classtinyxml2_1_1_x_m_l_util_1a6aef5d230e3972fbedda75b0ba5bbcdb" prot="public" virt="non-virtual"><scope>tinyxml2::XMLUtil</scope><name>ToStr</name></member>
+      <member refid="classtinyxml2_1_1_x_m_l_util_1a5ddef1a1d33db500b74b45110df48b6c" prot="public" virt="non-virtual"><scope>tinyxml2::XMLUtil</scope><name>ToStr</name></member>
+      <member refid="classtinyxml2_1_1_x_m_l_util_1abce55b1eb11af278acdd59fd1db12e34" prot="public" virt="non-virtual"><scope>tinyxml2::XMLUtil</scope><name>ToStr</name></member>
+      <member refid="classtinyxml2_1_1_x_m_l_util_1aff2cf3b9474538d497f672735ce87fd1" prot="public" virt="non-virtual"><scope>tinyxml2::XMLUtil</scope><name>ToStr</name></member>
+      <member refid="classtinyxml2_1_1_x_m_l_util_1a46f7e9542929001e726853ed8b571c07" prot="public" virt="non-virtual"><scope>tinyxml2::XMLUtil</scope><name>ToUnsigned</name></member>
+      <member refid="classtinyxml2_1_1_x_m_l_util_1a9a0e74ba8b2f8ecc0656bb18f1e4f8ad" prot="public" virt="non-virtual"><scope>tinyxml2::XMLUtil</scope><name>ToUnsigned64</name></member>
+      <member refid="classtinyxml2_1_1_x_m_l_util_1ab642d65697daba2f49a1f0d83411ffa5" prot="private" virt="non-virtual"><scope>tinyxml2::XMLUtil</scope><name>writeBoolFalse</name></member>
+      <member refid="classtinyxml2_1_1_x_m_l_util_1a5d173d121ea58f69d875f75cb108ef83" prot="private" virt="non-virtual"><scope>tinyxml2::XMLUtil</scope><name>writeBoolTrue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

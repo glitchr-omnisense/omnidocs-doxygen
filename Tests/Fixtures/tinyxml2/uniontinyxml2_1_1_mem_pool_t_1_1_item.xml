@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="uniontinyxml2_1_1_mem_pool_t_1_1_item" kind="union" language="C++" prot="private">
+    <compoundname>tinyxml2::MemPoolT::Item</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="uniontinyxml2_1_1_mem_pool_t_1_1_item_1a5620107f518c60d6619e8662d4c9d643" prot="public" static="no" mutable="no">
+        <type>Item *</type>
+        <definition>Item* tinyxml2::MemPoolT&lt; ITEM_SIZE &gt;::Item::next</definition>
+        <argsstring></argsstring>
+        <name>next</name>
+        <qualifiedname>tinyxml2::MemPoolT::Item::next</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tinyxml2.h" line="442" column="16" bodyfile="tinyxml2.h" bodystart="442" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniontinyxml2_1_1_mem_pool_t_1_1_item_1a0fabefbb4fcb35b695905283970f310c" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char tinyxml2::MemPoolT&lt; ITEM_SIZE &gt;::Item::itemData[static_cast&lt; size_t &gt;(ITEM_SIZE)]</definition>
+        <argsstring>[static_cast&lt; size_t &gt;(ITEM_SIZE)]</argsstring>
+        <name>itemData</name>
+        <qualifiedname>tinyxml2::MemPoolT::Item::itemData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tinyxml2.h" line="443" column="17" bodyfile="tinyxml2.h" bodystart="443" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="tinyxml2.h" line="441" column="5" bodyfile="tinyxml2.h" bodystart="441" bodyend="444"/>
+    <listofallmembers>
+      <member refid="uniontinyxml2_1_1_mem_pool_t_1_1_item_1a0fabefbb4fcb35b695905283970f310c" prot="public" virt="non-virtual"><scope>tinyxml2::MemPoolT::Item</scope><name>itemData</name></member>
+      <member refid="uniontinyxml2_1_1_mem_pool_t_1_1_item_1a5620107f518c60d6619e8662d4c9d643" prot="public" virt="non-virtual"><scope>tinyxml2::MemPoolT::Item</scope><name>next</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

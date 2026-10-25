@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classtinyxml2_1_1_x_m_l_visitor" kind="class" language="C++" prot="public">
+    <compoundname>tinyxml2::XMLVisitor</compoundname>
+    <derivedcompoundref refid="classtinyxml2_1_1_x_m_l_printer" prot="public" virt="non-virtual">tinyxml2::XMLPrinter</derivedcompoundref>
+    <includes refid="tinyxml2_8h" local="no">tinyxml2.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtinyxml2_1_1_x_m_l_visitor_1a494e72033d646c47d9c65c502ec62364" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual tinyxml2::XMLVisitor::~XMLVisitor</definition>
+        <argsstring>()</argsstring>
+        <name>~XMLVisitor</name>
+        <qualifiedname>tinyxml2::XMLVisitor::~XMLVisitor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tinyxml2.h" line="481" column="13" bodyfile="tinyxml2.h" bodystart="481" bodyend="481"/>
+      </memberdef>
+      <memberdef kind="function" id="classtinyxml2_1_1_x_m_l_visitor_1acb3c22fc5f60eb9db98f533f2761f67d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool tinyxml2::XMLVisitor::VisitEnter</definition>
+        <argsstring>(const XMLDocument &amp;)</argsstring>
+        <name>VisitEnter</name>
+        <qualifiedname>tinyxml2::XMLVisitor::VisitEnter</qualifiedname>
+        <reimplementedby refid="classtinyxml2_1_1_x_m_l_printer_1a73eba3d1aab34c4c3ac38d7d2d186671">VisitEnter</reimplementedby>
+        <param>
+          <type>const <ref refid="classtinyxml2_1_1_x_m_l_document" kindref="compound">XMLDocument</ref> &amp;</type>
+        </param>
+        <briefdescription>
+<para>Visit a document. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tinyxml2.h" line="484" column="18" bodyfile="tinyxml2.h" bodystart="484" bodyend="486"/>
+      </memberdef>
+      <memberdef kind="function" id="classtinyxml2_1_1_x_m_l_visitor_1a170e9989cd046ba904f302d087e07086" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool tinyxml2::XMLVisitor::VisitExit</definition>
+        <argsstring>(const XMLDocument &amp;)</argsstring>
+        <name>VisitExit</name>
+        <qualifiedname>tinyxml2::XMLVisitor::VisitExit</qualifiedname>
+        <reimplementedby refid="classtinyxml2_1_1_x_m_l_printer_1a261a24986e3507258a74405a7dc08cbf">VisitExit</reimplementedby>
+        <param>
+          <type>const <ref refid="classtinyxml2_1_1_x_m_l_document" kindref="compound">XMLDocument</ref> &amp;</type>
+        </param>
+        <briefdescription>
+<para>Visit a document. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tinyxml2.h" line="488" column="18" bodyfile="tinyxml2.h" bodystart="488" bodyend="490"/>
+      </memberdef>
+      <memberdef kind="function" id="classtinyxml2_1_1_x_m_l_visitor_1af97980a17dd4e37448b181f5ddfa92b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool tinyxml2::XMLVisitor::VisitEnter</definition>
+        <argsstring>(const XMLElement &amp;, const XMLAttribute *)</argsstring>
+        <name>VisitEnter</name>
+        <qualifiedname>tinyxml2::XMLVisitor::VisitEnter</qualifiedname>
+        <reimplementedby refid="classtinyxml2_1_1_x_m_l_printer_1a5cab997d51b0387c21e2274bd1147755">VisitEnter</reimplementedby>
+        <param>
+          <type>const <ref refid="classtinyxml2_1_1_x_m_l_element" kindref="compound">XMLElement</ref> &amp;</type>
+        </param>
+        <param>
+          <type>const <ref refid="classtinyxml2_1_1_x_m_l_attribute" kindref="compound">XMLAttribute</ref> *</type>
+        </param>
+        <briefdescription>
+<para>Visit an element. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tinyxml2.h" line="493" column="18" bodyfile="tinyxml2.h" bodystart="493" bodyend="495"/>
+      </memberdef>
+      <memberdef kind="function" id="classtinyxml2_1_1_x_m_l_visitor_1a772f10ddc83f881956d32628faa16eb6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool tinyxml2::XMLVisitor::VisitExit</definition>
+        <argsstring>(const XMLElement &amp;)</argsstring>
+        <name>VisitExit</name>
+        <qualifiedname>tinyxml2::XMLVisitor::VisitExit</qualifiedname>
+        <reimplementedby refid="classtinyxml2_1_1_x_m_l_printer_1a9a397f4c809a4de7ba27902b3ae1bbf7">VisitExit</reimplementedby>
+        <param>
+          <type>const <ref refid="classtinyxml2_1_1_x_m_l_element" kindref="compound">XMLElement</ref> &amp;</type>
+        </param>
+        <briefdescription>
+<para>Visit an element. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tinyxml2.h" line="497" column="18" bodyfile="tinyxml2.h" bodystart="497" bodyend="499"/>
+      </memberdef>
+      <memberdef kind="function" id="classtinyxml2_1_1_x_m_l_visitor_1adc75bd459fc7ba8223b50f0616767f9a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool tinyxml2::XMLVisitor::Visit</definition>
+        <argsstring>(const XMLDeclaration &amp;)</argsstring>
+        <name>Visit</name>
+        <qualifiedname>tinyxml2::XMLVisitor::Visit</qualifiedname>
+        <reimplementedby refid="classtinyxml2_1_1_x_m_l_printer_1a63df55647c0e170e5b8702842b82008e">Visit</reimplementedby>
+        <param>
+          <type>const <ref refid="classtinyxml2_1_1_x_m_l_declaration" kindref="compound">XMLDeclaration</ref> &amp;</type>
+        </param>
+        <briefdescription>
+<para>Visit a declaration. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tinyxml2.h" line="502" column="18" bodyfile="tinyxml2.h" bodystart="502" bodyend="504"/>
+      </memberdef>
+      <memberdef kind="function" id="classtinyxml2_1_1_x_m_l_visitor_1af30233565856480ea48b6fa0d6dec65b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool tinyxml2::XMLVisitor::Visit</definition>
+        <argsstring>(const XMLText &amp;)</argsstring>
+        <name>Visit</name>
+        <qualifiedname>tinyxml2::XMLVisitor::Visit</qualifiedname>
+        <reimplementedby refid="classtinyxml2_1_1_x_m_l_printer_1ad903ea1672831f797130b4cddddfa532">Visit</reimplementedby>
+        <param>
+          <type>const <ref refid="classtinyxml2_1_1_x_m_l_text" kindref="compound">XMLText</ref> &amp;</type>
+        </param>
+        <briefdescription>
+<para>Visit a text node. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tinyxml2.h" line="506" column="18" bodyfile="tinyxml2.h" bodystart="506" bodyend="508"/>
+      </memberdef>
+      <memberdef kind="function" id="classtinyxml2_1_1_x_m_l_visitor_1acc8147fb5a85f6c65721654e427752d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool tinyxml2::XMLVisitor::Visit</definition>
+        <argsstring>(const XMLComment &amp;)</argsstring>
+        <name>Visit</name>
+        <qualifiedname>tinyxml2::XMLVisitor::Visit</qualifiedname>
+        <reimplementedby refid="classtinyxml2_1_1_x_m_l_printer_1a76fe434cdd4c39cb9963e3025e53609a">Visit</reimplementedby>
+        <param>
+          <type>const <ref refid="classtinyxml2_1_1_x_m_l_comment" kindref="compound">XMLComment</ref> &amp;</type>
+        </param>
+        <briefdescription>
+<para>Visit a comment node. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tinyxml2.h" line="510" column="18" bodyfile="tinyxml2.h" bodystart="510" bodyend="512"/>
+      </memberdef>
+      <memberdef kind="function" id="classtinyxml2_1_1_x_m_l_visitor_1a14e4748387c34bf53d24e8119bb1f292" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool tinyxml2::XMLVisitor::Visit</definition>
+        <argsstring>(const XMLUnknown &amp;)</argsstring>
+        <name>Visit</name>
+        <qualifiedname>tinyxml2::XMLVisitor::Visit</qualifiedname>
+        <reimplementedby refid="classtinyxml2_1_1_x_m_l_printer_1a31002765840bc4ea7b22332f71d83c74">Visit</reimplementedby>
+        <param>
+          <type>const <ref refid="classtinyxml2_1_1_x_m_l_unknown" kindref="compound">XMLUnknown</ref> &amp;</type>
+        </param>
+        <briefdescription>
+<para>Visit an unknown node. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tinyxml2.h" line="514" column="18" bodyfile="tinyxml2.h" bodystart="514" bodyend="516"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Implements the interface to the &quot;Visitor pattern&quot; (see the Accept() method.) If you call the Accept() method, it requires being passed a <ref refid="classtinyxml2_1_1_x_m_l_visitor" kindref="compound">XMLVisitor</ref> class to handle callbacks. For nodes that contain other nodes (Document, Element) you will get called with a VisitEnter/VisitExit pair. Nodes that are always leafs are simply called with <ref refid="classtinyxml2_1_1_x_m_l_visitor_1adc75bd459fc7ba8223b50f0616767f9a" kindref="member">Visit()</ref>.</para>
+<para>If you return &apos;true&apos; from a Visit method, recursive parsing will continue. If you return false, <bold>no children of this node or its siblings</bold> will be visited.</para>
+<para>All flavors of Visit methods have a default implementation that returns &apos;true&apos; (continue visiting). You need to only override methods that are interesting to you.</para>
+<para>Generally Accept() is called on the <ref refid="classtinyxml2_1_1_x_m_l_document" kindref="compound">XMLDocument</ref>, although all nodes support visiting.</para>
+<para>You should never change the document from a callback.</para>
+<para><simplesect kind="see"><para><ref refid="classtinyxml2_1_1_x_m_l_node_1a81e66df0a44c67a7af17f3b77a152785" kindref="member">XMLNode::Accept()</ref> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>tinyxml2::XMLPrinter</label>
+        <link refid="classtinyxml2_1_1_x_m_l_printer"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>tinyxml2::XMLVisitor</label>
+        <link refid="classtinyxml2_1_1_x_m_l_visitor"/>
+      </node>
+    </inheritancegraph>
+    <location file="tinyxml2.h" line="478" column="1" bodyfile="tinyxml2.h" bodystart="479" bodyend="517"/>
+    <listofallmembers>
+      <member refid="classtinyxml2_1_1_x_m_l_visitor_1adc75bd459fc7ba8223b50f0616767f9a" prot="public" virt="virtual"><scope>tinyxml2::XMLVisitor</scope><name>Visit</name></member>
+      <member refid="classtinyxml2_1_1_x_m_l_visitor_1af30233565856480ea48b6fa0d6dec65b" prot="public" virt="virtual"><scope>tinyxml2::XMLVisitor</scope><name>Visit</name></member>
+      <member refid="classtinyxml2_1_1_x_m_l_visitor_1acc8147fb5a85f6c65721654e427752d7" prot="public" virt="virtual"><scope>tinyxml2::XMLVisitor</scope><name>Visit</name></member>
+      <member refid="classtinyxml2_1_1_x_m_l_visitor_1a14e4748387c34bf53d24e8119bb1f292" prot="public" virt="virtual"><scope>tinyxml2::XMLVisitor</scope><name>Visit</name></member>
+      <member refid="classtinyxml2_1_1_x_m_l_visitor_1acb3c22fc5f60eb9db98f533f2761f67d" prot="public" virt="virtual"><scope>tinyxml2::XMLVisitor</scope><name>VisitEnter</name></member>
+      <member refid="classtinyxml2_1_1_x_m_l_visitor_1af97980a17dd4e37448b181f5ddfa92b5" prot="public" virt="virtual"><scope>tinyxml2::XMLVisitor</scope><name>VisitEnter</name></member>
+      <member refid="classtinyxml2_1_1_x_m_l_visitor_1a170e9989cd046ba904f302d087e07086" prot="public" virt="virtual"><scope>tinyxml2::XMLVisitor</scope><name>VisitExit</name></member>
+      <member refid="classtinyxml2_1_1_x_m_l_visitor_1a772f10ddc83f881956d32628faa16eb6" prot="public" virt="virtual"><scope>tinyxml2::XMLVisitor</scope><name>VisitExit</name></member>
+      <member refid="classtinyxml2_1_1_x_m_l_visitor_1a494e72033d646c47d9c65c502ec62364" prot="public" virt="virtual"><scope>tinyxml2::XMLVisitor</scope><name>~XMLVisitor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

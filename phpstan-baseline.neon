@@ -1,0 +1,31 @@
+parameters:
+	ignoreErrors:
+		-
+			message: '#^Access to an undefined property DOMNameSpaceNode\|DOMNode\:\:\$textContent\.$#'
+			identifier: property.notFound
+			count: 1
+			path: DoxygenSource.php
+
+		-
+			message: '#^Cannot call method getElementsByTagName\(\) on DOMElement\|null\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: DoxygenSource.php
+
+		-
+			message: '#^Instanceof between DOMElement and DOMElement will always evaluate to true\.$#'
+			identifier: instanceof.alwaysTrue
+			count: 5
+			path: DoxygenSource.php
+
+		-
+			message: '#^Method Omnidocs\\Doxygen\\DoxygenSource\:\:home\(\) never returns null so it can be removed from the return type\.$#'
+			identifier: return.unusedType
+			count: 1
+			path: DoxygenSource.php
+
+		-
+			message: '#^Offset string might not exist on array\<string, string\>\|null\.$#'
+			identifier: offsetAccess.notFound
+			count: 1
+			path: DoxygenSource.php
