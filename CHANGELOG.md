@@ -5,5 +5,8 @@ Every version of omnidocs/doxygen, newest first ([Keep a Changelog](https://keep
 
 ## Unreleased
 
+### Changed
+- Requires `omnisense/omnidocs`, the core's new name (Omniscient is now Omnisense); the repository is `glitchr-omnisense/omnidocs-doxygen`.
+
 ### Added
 - The source, its factory, omnidocs' conformance suite on a real tool's output.

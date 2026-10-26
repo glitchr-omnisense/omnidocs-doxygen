@@ -1,7 +1,7 @@
 # omnidocs/doxygen
 
 A C or C++ project's reference from Doxygen's XML output (`GENERATE_XML=YES`), as an
-[omnidocs](https://github.com/glitchr-studio/omnidocs) manual: its main page as the home, then a page
+[omnidocs](https://github.com/glitchr-omnisense/omnidocs) manual: its main page as the home, then a page
 per namespace, class, struct, union and file - its description, its bases, its public members with
 their declaration, text, parameters and return, enum values - at the anchors Doxygen gives them; every
 compound and public member an API entry. \note, \warning, \see, \since, \deprecated are callouts, a
